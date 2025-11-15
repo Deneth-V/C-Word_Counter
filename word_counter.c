@@ -53,3 +53,16 @@ int count_letters(string text)
     }
   return len;
 }
+
+int count_punctuations(string punc)
+{
+  int punc_num = 0;
+  for (int i = 0; punc[i] != '\0'; i++)
+    {
+      if (punc[i] == '.' || punc[i] == '!' || punc[i] == '?')
+      {
+        punc_num++;
+      }
+    }
+  return punc_num;
+}
