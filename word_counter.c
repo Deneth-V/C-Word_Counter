@@ -25,6 +25,10 @@ int main(void)
   int sentences = punct;
 
   printf("Words: %i\n", words);
+  printf("Letters: %i\n", letters);
+  printf("Spaces: %i\n", spaces);
+  printf("Punctuations: %i\n", punct);
+  printf("Sentences: %i\n", sentences);
 }
 
 // FUNCTIONS
